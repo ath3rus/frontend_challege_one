@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+body .container {
+  background-color: #090b1a;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+body .container .card {
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  height: 400px;
+  border-radius: 10px;
+  background-color: #1b1938;
+}
+
+body .container .card .card-description {
+  text-align: start;
+  padding: 5%;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container .card .card-description h1 {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+body .container .card .card-description h1 span {
+  color: #aa5cdb;
+}
+
+body .container .card .card-description #card-dsc {
+  margin-top: 5%;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: small;
+  font-size: 1.5vw;
+}
+
+body .container .card .card-description #abt {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 15% 0 15% 0;
+}
+
+body .container .card .card-description #abt .abt-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  font-size: 1.2vw;
+  padding: 5px;
+}
+
+body .container .card .card-description #abt .abt-card .d-title {
+  font-family: "Inter", sans-serif;
+  color: #aa5cdb;
+}
+
+body .container .card .card-description #abt .abt-card .d-dsc {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 20%;
+  margin: 5px;
+}
+
+body .container .card .card-image {
+  overflow: hidden;
+}
+
+body .container .card .card-image img {
+  border-radius: 0 10px 10px 0;
+}
+
+body .container footer {
+  position: absolute;
+  color: white;
+  bottom: 5px;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+  font-family: 'Poppins', sans-serif;
+}
+
+body .container footer a {
+  text-decoration: none;
+  color: #aa5cdb;
+}
+/*# sourceMappingURL=style.css.map */
